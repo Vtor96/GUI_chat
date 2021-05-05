@@ -6,14 +6,14 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button onAction="#connect" prefHeight="25.0" prefWidth="Infinity" text="Подключиться" />
-      <TextArea editable="false" fx:id="textArea" prefHeight="300.0" prefWidth="250.0">
+      <Button onAction="#connect" prefHeight="25.0" prefWidth="Infinity" text="Подключиться" textFill="RED" />
+      <TextArea fx:id="textArea" editable="false" prefHeight="300.0" prefWidth="250.0">
          <font>
             <Font size="16.0" />
          </font></TextArea>
       <HBox prefHeight="30.0" prefWidth="200.0">
          <children>
-            <TextField onAction="#onSubmit" fx:id="textField" prefHeight="30.0" prefWidth="225.0">
+            <TextField fx:id="textField" onAction="#onSubmit" prefHeight="30.0" prefWidth="225.0">
                <font>
                   <Font size="14.0" />
                </font></TextField>
